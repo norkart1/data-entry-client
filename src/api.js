@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://your-vercel-backend-url.vercel.app/api";
+const API_URL = "https://data-entry-server-peach.vercel.app/api";
 
 export const addData = async (data) => axios.post(`${API_URL}/add`, data);
 export const getData = async () => {
